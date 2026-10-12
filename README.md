@@ -1,16 +1,16 @@
-# crm_member_app
+# McDonald's Rewards (CRM Member App)
 
-A new Flutter project.
+Prototipe aplikasi CRM McDonald's Indonesia, dibangun dengan Flutter dan Supabase.
 
-## Getting Started
+## Menjalankan
+1. Pasang Flutter SDK.
+2. Buat project di supabase.com.
+3. Di SQL Editor, jalankan semua file di folder `supabase/` sesuai urutan nomornya.
+4. Isi URL dan kunci publishable project kamu di `lib/core/supabase_config.dart`.
+5. Jalankan:
+   flutter pub get
+   flutter run
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Catatan
+- Data di makalah adalah data simulasi.
+- Kunci yang dipakai di aplikasi hanya kunci publishable. Jangan pernah memasukkan kunci secret atau service_role ke repo.
